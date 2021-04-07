@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu restaurante</title>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+
 </head>
 <body>
-    
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Tu restaurante</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <i class="fas fa-phone-square"> 999-999-999</i>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <i class="fas fa-map-marker"> Urb Las Dunas 123- Ica, Perú</i>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <i class="fas fa-bars icon-menu" id="btnmenu"></i>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="menu__item"><a href="./nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="./galeria.html" class="menu__link">Galería</a></li>
+                <li class="menu__item"><a href="./contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><i class="fab fa-facebook"></i></a>
+                <a href="" class="social-icon__link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-icon__link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="./img/banner.jpg" alt="" class="banner__img">
+        <div class="banner__content">La mejor y exquisita comida está aquí</div>
+    </section>
+
+    <main class="main">
+        <section class="group group--color">
+            <div class="container">
+                <h2 class="main__title">Bienvenido a su restaurante</h2>
+                <p class="main__txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis nihil animi culpa mollitia tempora. Autem, voluptatem commodi neque natus sit esse repellendus eum! Voluptatibus eos unde iusto perferendis id.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi in veniam veritatis aspernatur a obcaecati, eum minus sed distinctio, labore porro error ducimus quos amet dolores perferendis laudantium esse. Quaerat!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam animi aliquid praesentium quis nobis, excepturi vel laudantium at numquam! Iusto quidem nihil blanditiis ipsam quod soluta in veniam aspernatur?
+                </p>
+            </div>
+        </section>
+
+        <section class="group main__about__description">
+            <div class="container container--flex">
+                <div class="column column--50">
+                    <img src="./img/food1.jpg" alt="">
+                </div>
+                <div class="column column--50">
+                    <h3 class="column__title">Lorem ipsum, dolor sit amet consectetur adipisicing</h3>
+                    <p class="column__txt">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quisquam nobis sed voluptate architecto reprehenderit, nihil saepe voluptas modi praesentium, dicta alias optio magnam nemo porro corporis consequatur rem repellat!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate excepturi accusantium illo repellendus cupiditate? Adipisci odio provident sit facilis quos eaque officia, repudiandae et quae repellat id modi aperiam esse?
+                    </p>
+                    <a href="" class="btn btn--contact">Contact</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="group today-special">
+            <h2 class="today-special__title">Especial de hoy</h2>
+            <div class="container container__flex">
+                <div class="column column--50-25">
+                    <img src="./img/plate2.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del día 1</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/plate2.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del día 2</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/plate3.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del día 3</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/plate4.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Especial del día 4</div>
+                    <div class="today-special__price">$99</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos?</h2>
+                <p class="column__txt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aperiam delectus iste eaque soluta. Officiis vero quo, ipsum iusto fugiat, quaerat iste accusantium eveniet, expedita quisquam aspernatur est? Commodi, a.
+                </p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Urb Las dunasd 123 - Ica, Perú</p>
+                <p class="column__txt">Teléfono: 999-999-999</p>
+                <p class="column__txt">consultas@turestaurante.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Síguenos en nuestras redes</h2>
+                <p class="column__txt"><a href=""><i class="fab fa-facebook"></i> Facebook</a></p>
+                <p class="column__txt"><a href=""><i class="fab fa-twitter"></i> Síguenos en Twitter</a></p>
+                <p class="column__txt"><a href=""><i class="fab fa-youtube"></i> Visita nuestro canal</a></p>
+            </div>
+            <p class="copy">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
