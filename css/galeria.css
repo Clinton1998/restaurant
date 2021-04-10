@@ -37,6 +37,8 @@
 
 .modal__img {
     width: 60%;
+    max-height: 100vh;
+    object-fit: cover;
 }
 
 .modal__boton {
