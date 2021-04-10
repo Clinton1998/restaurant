@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Tu restaurante</title>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Tu restaurante</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <i class="fas fa-phone-square"> 999-999-999</i>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <i class="fas fa-map-marker"> Urb Las Dunas 123- Ica, Perú</i>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <i class="fas fa-bars icon-menu" id="btnmenu"></i>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="./nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="./galeria.html" class="menu__link menu__link--select">Galería</a></li>
+                <li class="menu__item"><a href="./contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><i class="fab fa-facebook"></i></a>
+                <a href="" class="social-icon__link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-icon__link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="./img/banner-gallery.jpg" alt="" class="banner__img">
+        <div class="banner__content">Lo mejor de nosotros a tu servicio</div>
+    </section>
+
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestra galería</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="./img/gallery/alto.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="./img/gallery/bajo.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/gallery/bajo.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="./img/gallery/alto.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/gallery/alto.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="./img/gallery/bajo.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="./img/gallery/bajo.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="./img/gallery/alto.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos?</h2>
+                <p class="column__txt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aperiam delectus iste eaque soluta. Officiis vero quo, ipsum iusto fugiat, quaerat iste accusantium eveniet, expedita quisquam aspernatur est? Commodi, a.
+                </p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Urb Las dunasd 123 - Ica, Perú</p>
+                <p class="column__txt">Teléfono: 999-999-999</p>
+                <p class="column__txt">consultas@turestaurante.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Síguenos en nuestras redes</h2>
+                <p class="column__txt"><a href=""><i class="fab fa-facebook"></i> Facebook</a></p>
+                <p class="column__txt"><a href=""><i class="fab fa-twitter"></i> Síguenos en Twitter</a></p>
+                <p class="column__txt"><a href=""><i class="fab fa-youtube"></i> Visita nuestro canal</a></p>
+            </div>
+            <p class="copy">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
